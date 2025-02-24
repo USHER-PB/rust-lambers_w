@@ -70,6 +70,6 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/USHER-PB/rust-lambersw:sha-${{ github.sha }}
-            ghcr.io/USHER-PB/rust-lambersw:branch-${{ github.ref_name }}
-            ghcr.io/USHER-PB/rust-lambersw:latest
+            ghcr.io/usher-pb/rust-lambersw:sha-${{ github.sha }}
+            ghcr.io/usher-pb/rust-lambersw:branch-${{ github.ref_name }}
+            ghcr.io/usher-pb/rust-lambersw:latest
