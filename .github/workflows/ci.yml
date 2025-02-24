@@ -1,4 +1,4 @@
-name: rust-lambers_w-
+name: rust-lambers_w
 
 on:
   push:
@@ -70,6 +70,6 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/USHER-PB/rust-lambers_w-:sha-${{ github.sha }}
+            ghcr.io/USHER-PB/rust-lambers_w:sha-${{ github.sha }}
             ghcr.io/USHER-PB/rust-lambers_w:branch-${{ github.ref_name }}
             ghcr.io/USHER-PB/rust-lambers_w:latest
