@@ -72,4 +72,4 @@ jobs:
           tags: |
             ghcr.io/usher-pb/rust-lambersw:sha-${{ github.sha }}
             ghcr.io/usher-pb/rust-lambersw:branch-${{ github.ref_name }}
-            ghcr.io/usher-pb/rust-lambersw:latest
+            ghcr.io/usher-pb/rust-lambersw:latest  
